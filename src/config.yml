@@ -1,0 +1,38 @@
+# Settings
+list_per_page: 10
+distance_from_button: 15
+# Messages
+messages:
+    help:
+    - "&3=======&6BungeeButtonTeleport&3======="
+    - "&3/{cmd} addserver <ButtonName> <ServerName> - Set the server to the button"
+    - "&3/{cmd} remove <ButtonName> - Remove a button"
+    - "&3/{cmd} list - Show current list for teleport buttons"
+    - "&3/{cmd} reload - Reload configuration"
+    - "&3============&2Version [1.0]&3============="
+    list:
+        nobuttons: "&c[!] &fYou haven't made more than one button yet!"
+        numberminus: "&с[!] &fPage number must be 1 or more."
+        title: "&fYour buttons &7(&a{page} &7of &a{total}&7)&f:"
+        info: "&8- &a{name} &7(X: &a{x}&7, Y: &a{y}&7, Z: &a{z}&7 server: &a{server}&7)"
+        pages: "&a[?] &fSee next page with &a/{cmd} list {next}"
+        page_notfound: "&c[!] &fThe page was not found."
+    noarg:
+        button_name: "&c[!] &fYou have not specified a button name"
+        server_name: "&c[!] &fYou have not specified a server name"
+    is_not_button: "&c[!] &fYou're not looking at the button!"
+    added_server: "&a[+] &fIn button: &7{name} &fhas been added a server &7{server}"
+    removed_server: "&a[+] &fButton: &7{name} &fhas been removed"
+    button_exist:
+        true: "&c[!] &fButton {name} exist!"
+        false: "&c[!] &fButton {name} has been not found!"
+        cordinate: "&c[!] &fCoordinates taken by {name} button"
+    reload: "&a[+] &fConfiguration has been reloaded."
+    noperm: "&cYou don't have permission!"
+# Permissions
+permissions:
+    help: "bbt.help"
+    list: "bbt.list"
+    addserver: "bbt.addserver"
+    remove: "bbt.remove"
+    reload: "bbt.reload"

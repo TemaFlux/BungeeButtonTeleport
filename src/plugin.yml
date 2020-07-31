@@ -1,0 +1,8 @@
+name: BungeeButtonTeleport
+main: me.temaflex.bbt.Main
+author: TemaFlux
+version: 1.0
+api-version: 1.13
+commands:
+    bungeebuttonteleport:
+        aliases: ["bbt", "bbteleport"]
